@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box tutorial</title>
+    <style>
+        .container {
+            height: 390px;
+            width: 500px;
+            border: 2px solid rgb(0, 0, 0);
+            /* initialize the  container as the flex  box */
+            display: flex;
+            /* Flex properties for flex container */
+            flex-direction: row;
+            flex-direction: column;
+            /* row will become reverse */
+            flex-direction: row-reverse;
+            /* column will become reverse */
+            flex-direction: column-reverse;
+        }
+        
+        .item {
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            border: 2px solid rgb(10, 252, 62);
+            margin: 10px;
+            padding: 3px;
+            width: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>
+        This is flexbox tutorial </h3>
+    <div class="container">
+        <!-- $ sign represent numbers we want  -->
+        <!-- type div.items#item$ and multiply it by any number -->
+        <!-- we use # for showing item -->
+        <div class="item" id="item1">First Box</div>
+        <div class="item" id="item2">Second Box</div>
+        <div class="item" id="item3">Third Box</div>
+        <div class="item" id="item4">Fourth Box</div>
+        <div class="item" id="item5">Fifth Box</div>
+        <div class="item" id="item6">Six Box</div>
+    </div>
+
+</body>
+
+</html>
